@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Math Challenge for Kids! 🎉</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧮 Math Challenge! 🎉</h1>
+    <p class="subtitle">Test your math skills and have fun!</p>
+
+    <!-- Start Screen -->
+    <div id="start-screen" class="screen active">
+      <div class="difficulty-section">
+        <h2>Choose Your Level:</h2>
+        <div class="difficulty-buttons">
+          <button class="btn btn-easy" onclick="startGame('easy')">⭐ Easy<br><small>Add & Subtract (1–10)</small></button>
+          <button class="btn btn-medium" onclick="startGame('medium')">⭐⭐ Medium<br><small>Add & Subtract (1–50)</small></button>
+          <button class="btn btn-hard" onclick="startGame('hard')">⭐⭐⭐ Hard<br><small>All Operations (1–100)</small></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Game Screen -->
+    <div id="game-screen" class="screen">
+      <div class="stats">
+        <div class="stat-box">
+          <span class="stat-label">Score</span>
+          <span id="score" class="stat-value">0</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Question</span>
+          <span id="question-num" class="stat-value">1 / 10</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-label">Time</span>
+          <span id="timer" class="stat-value">30</span>
+        </div>
+      </div>
+
+      <div class="question-area">
+        <div id="question" class="question-text"></div>
+        <div class="answer-area">
+          <input
+            type="number"
+            id="answer-input"
+            class="answer-input"
+            placeholder="?"
+            autocomplete="off"
+          />
+          <button class="btn btn-submit" onclick="submitAnswer()">✅ Check!</button>
+        </div>
+        <div id="feedback" class="feedback"></div>
+      </div>
+
+      <div class="progress-bar-container">
+        <div id="progress-bar" class="progress-bar"></div>
+      </div>
+    </div>
+
+    <!-- Result Screen -->
+    <div id="result-screen" class="screen">
+      <div id="result-icon" class="result-icon"></div>
+      <h2 id="result-title" class="result-title"></h2>
+      <p id="result-message" class="result-message"></p>
+      <div class="final-score-box">
+        <span class="stat-label">Your Score</span>
+        <span id="final-score" class="final-score-value"></span>
+        <span id="final-stars" class="final-stars"></span>
+      </div>
+      <div class="result-buttons">
+        <button class="btn btn-easy" onclick="startGame(currentDifficulty)">🔄 Play Again</button>
+        <button class="btn btn-medium" onclick="showStartScreen()">🏠 Main Menu</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
