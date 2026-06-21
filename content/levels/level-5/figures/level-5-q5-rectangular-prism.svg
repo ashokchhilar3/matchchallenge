@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" width="320" height="220">
+  <polygon points="70,70 210,70 250,40 110,40" fill="#e3f2fd" stroke="#1e88e5" stroke-width="2" />
+  <polygon points="70,70 70,160 210,160 210,70" fill="#bbdefb" stroke="#1e88e5" stroke-width="2" />
+  <polygon points="210,70 250,40 250,130 210,160" fill="#90caf9" stroke="#1e88e5" stroke-width="2" />
+  <line x1="70" y1="176" x2="210" y2="176" stroke="#333" stroke-width="1" />
+  <line x1="70" y1="172" x2="70" y2="180" stroke="#333" stroke-width="1" />
+  <line x1="210" y1="172" x2="210" y2="180" stroke="#333" stroke-width="1" />
+  <text x="140" y="192" text-anchor="middle" font-size="13" fill="#333">6 cm</text>
+  <line x1="262" y1="40" x2="262" y2="130" stroke="#333" stroke-width="1" />
+  <line x1="258" y1="40" x2="266" y2="40" stroke="#333" stroke-width="1" />
+  <line x1="258" y1="130" x2="266" y2="130" stroke="#333" stroke-width="1" />
+  <text x="282" y="88" text-anchor="middle" font-size="13" fill="#333">3 cm</text>
+  <line x1="112" y1="28" x2="252" y2="28" stroke="#333" stroke-width="1" />
+  <line x1="112" y1="24" x2="112" y2="32" stroke="#333" stroke-width="1" />
+  <line x1="252" y1="24" x2="252" y2="32" stroke="#333" stroke-width="1" />
+  <text x="182" y="20" text-anchor="middle" font-size="13" fill="#333">4 cm</text>
+</svg>

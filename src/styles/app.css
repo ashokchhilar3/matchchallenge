@@ -1,0 +1,125 @@
+@import './reset.css';
+@import './layout.css';
+@import './components.css';
+@import './animations.css';
+
+:root {
+  --color-primary: #6c5ce7;
+  --color-primary-soft: #ede9ff;
+  --color-secondary: #14b8a6;
+  --color-secondary-soft: #d9fffb;
+  --color-success: #22c55e;
+  --color-success-soft: #dcfce7;
+  --color-warning: #f59e0b;
+  --color-warning-soft: #fff3d6;
+  --color-error: #ef4444;
+  --color-error-soft: #ffe3e3;
+  --color-bg: #fff9ef;
+  --color-card: #ffffff;
+  --color-card-warm: #fffdf8;
+  --color-card-warm-alt: #fffcf5;
+  --color-surface: #fff4d8;
+  --color-surface-alt: #faf7f2;
+  --color-border: #e7ddc9;
+  --color-locked-bg: #f3efe5;
+  --color-text: #2f2a3d;
+  --color-text-muted: #6f6784;
+  --color-success-text: #166534;
+  --color-success-accent: #34d399;
+  --color-warning-text: #8a4f00;
+  --color-fail-bg: #fff1d8;
+  --color-fail-text: #8b5e11;
+  --color-figure-bg: #f7fbff;
+  --color-figure-bg-alt: #eef8ff;
+  --color-row-alt: #fff7e8;
+  --color-overlay: rgba(255, 249, 239, 0.78);
+  --color-shadow: rgba(65, 44, 120, 0.12);
+  --color-shadow-strong: rgba(65, 44, 120, 0.2);
+  --color-primary-shadow: rgba(108, 92, 231, 0.28);
+  --color-primary-shadow-strong: rgba(108, 92, 231, 0.34);
+  --color-primary-glow: rgba(108, 92, 231, 0.1);
+  --color-secondary-shadow: rgba(20, 184, 166, 0.28);
+  --color-secondary-accent: #0ea5a5;
+  --color-success-shadow: rgba(34, 197, 94, 0.15);
+  --color-success-soft-alt: #effdf4;
+
+  --spacing-2xs: 0.25rem;
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 0.75rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+  --spacing-2xl: 3rem;
+
+  --radius-sm: 0.75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-pill: 999px;
+
+  --font-size-sm: 0.94rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.18rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 2.6rem;
+
+  --line-height-tight: 1.2;
+  --line-height-base: 1.5;
+
+  --border-width-sm: 1px;
+  --border-width-md: 2px;
+  --border-width-lg: 4px;
+  --touch-target: 2.75rem;
+  --button-padding-inline: 1.4rem;
+  --card-shadow: 0 0.7rem 1.8rem var(--color-shadow);
+  --card-shadow-strong: 0 1rem 2.2rem var(--color-shadow-strong);
+  --content-max-width: 72rem;
+  --name-entry-max-width: 30rem;
+  --sidebar-width: 20rem;
+  --figure-min-height: 14rem;
+  --figure-max-width: 22rem;
+  --score-stat-min-width: 8rem;
+  --leaderboard-rank-width: 3rem;
+  --timeline-node-min-width: 7rem;
+  --timeline-node-min-width-mobile: 0;
+  --option-ring-size: 0.25rem;
+  --timeline-node-size: 3.2rem;
+  --timeline-line-height: 0.35rem;
+  --celebration-size: 7rem;
+  --celebration-card-min-width: 18rem;
+  --check-stroke-width: 8;
+  --sparkle-size: 0.8rem;
+  --sparkle-rise: -1rem;
+  --celebration-duration: 1.8s;
+  --lift-xs: -0.08rem;
+  --lift-sm: -0.12rem;
+  --blur-sm: 0.25rem;
+  --transition-fast: 160ms;
+  --transition-base: 220ms;
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background:
+    radial-gradient(circle at top, var(--color-primary-glow), transparent 34%),
+    linear-gradient(180deg, var(--color-bg), var(--color-card-warm));
+  color: var(--color-text);
+  font-size: var(--font-size-md);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: var(--color-primary);
+  color: var(--color-card);
+}
+
+:focus-visible {
+  outline: var(--border-width-md) solid var(--color-secondary);
+  outline-offset: 0.2rem;
+}

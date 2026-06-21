@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 200" width="280" height="200">
+  <polygon points="50,170 230,170 150,45" fill="#fef7ef" stroke="#fb8c00" stroke-width="2" />
+  <text x="140" y="188" text-anchor="middle" font-size="14" fill="#333">7 cm</text>
+  <text x="84" y="112" font-size="14" fill="#333">5 cm</text>
+  <text x="195" y="112" font-size="14" fill="#333">6 cm</text>
+  <line x1="50" y1="178" x2="230" y2="178" stroke="#333" stroke-width="1" />
+  <line x1="50" y1="174" x2="50" y2="182" stroke="#333" stroke-width="1" />
+  <line x1="230" y1="174" x2="230" y2="182" stroke="#333" stroke-width="1" />
+</svg>

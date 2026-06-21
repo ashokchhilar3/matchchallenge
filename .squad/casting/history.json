@@ -1,0 +1,24 @@
+{
+  "universe_usage_history": [
+    {
+      "universe": "The Goonies",
+      "used_at": "2026-06-17T17:20:17Z",
+      "project": "mathchallenge"
+    }
+  ],
+  "assignment_cast_snapshots": {
+    "mathchallenge-2026-06-17": {
+      "assignment_id": "mathchallenge-2026-06-17",
+      "universe": "The Goonies",
+      "created_at": "2026-06-17T17:20:17Z",
+      "agents": {
+        "lead": "Mikey",
+        "frontend-dev": "Data",
+        "ux-design-dev": "Mouth",
+        "tester": "Chunk",
+        "launch-analyst": "Brand",
+        "iteration-reviewer": "Sloth"
+      }
+    }
+  }
+}

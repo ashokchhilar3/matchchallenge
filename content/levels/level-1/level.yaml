@@ -1,0 +1,175 @@
+id: level-1
+title: Level 1
+theme: Number Warm-Up
+passingRule: perfect
+questions:
+  - id: level-1-q1
+    prompt: What is 347 + 286?
+    topicTags:
+      - arithmetic
+      - addition
+    hint: Add the hundreds, tens, and ones carefully.
+    figure: null
+    options:
+      - id: a
+        text: "623"
+      - id: b
+        text: "633"
+      - id: c
+        text: "643"
+      - id: d
+        text: "653"
+    correctOptionId: b
+  - id: level-1-q2
+    prompt: What is 912 − 458?
+    topicTags:
+      - arithmetic
+      - subtraction
+    hint: Regroup if you need to when subtracting.
+    figure: null
+    options:
+      - id: a
+        text: "444"
+      - id: b
+        text: "454"
+      - id: c
+        text: "464"
+      - id: d
+        text: "474"
+    correctOptionId: b
+  - id: level-1-q3
+    prompt: What is 9 × 8?
+    topicTags:
+      - arithmetic
+      - multiplication
+    hint: Think of 8 groups of 9 or 9 groups of 8.
+    figure: null
+    options:
+      - id: a
+        text: "56"
+      - id: b
+        text: "63"
+      - id: c
+        text: "72"
+      - id: d
+        text: "81"
+    correctOptionId: c
+  - id: level-1-q4
+    prompt: What is 144 ÷ 12?
+    topicTags:
+      - arithmetic
+      - division
+    hint: "Ask yourself: 12 times what number equals 144?"
+    figure: null
+    options:
+      - id: a
+        text: "10"
+      - id: b
+        text: "11"
+      - id: c
+        text: "12"
+      - id: d
+        text: "14"
+    correctOptionId: c
+  - id: level-1-q5
+    prompt: What is 3/4 + 1/4?
+    topicTags:
+      - fractions
+      - addition
+    hint: When denominators are the same, add the numerators.
+    figure: null
+    options:
+      - id: a
+        text: "1"
+      - id: b
+        text: 4/8
+      - id: c
+        text: 3/8
+      - id: d
+        text: 7/8
+    correctOptionId: a
+  - id: level-1-q6
+    prompt: Which fraction is greater?
+    topicTags:
+      - fractions
+      - comparison
+    hint: The denominators match, so compare the numerators.
+    figure: null
+    options:
+      - id: a
+        text: 3/8
+      - id: b
+        text: 5/8
+      - id: c
+        text: They are equal.
+      - id: d
+        text: Not enough information.
+    correctOptionId: b
+  - id: level-1-q7
+    prompt: What is 2/3 of 12?
+    topicTags:
+      - fractions
+      - multiplication
+    hint: Split 12 into 3 equal groups first.
+    figure: null
+    options:
+      - id: a
+        text: "4"
+      - id: b
+        text: "6"
+      - id: c
+        text: "8"
+      - id: d
+        text: "9"
+    correctOptionId: c
+  - id: level-1-q8
+    prompt: What is 6 + 4 × 5?
+    topicTags:
+      - arithmetic
+      - order-of-operations
+    hint: Multiply before you add.
+    figure: null
+    options:
+      - id: a
+        text: "26"
+      - id: b
+        text: "50"
+      - id: c
+        text: "34"
+      - id: d
+        text: "20"
+    correctOptionId: a
+  - id: level-1-q9
+    prompt: A square has side length 9 centimeters. What is its perimeter?
+    topicTags:
+      - measurement
+      - perimeter
+    hint: A square has 4 equal sides.
+    figure: null
+    options:
+      - id: a
+        text: 18 cm
+      - id: b
+        text: 27 cm
+      - id: c
+        text: 36 cm
+      - id: d
+        text: 81 cm
+    correctOptionId: c
+  - id: level-1-q10
+    prompt: Mina has 45 stickers and shares them equally into 5 albums. How many stickers go in each album?
+    topicTags:
+      - word-problem
+      - division
+    hint: This is an equal groups problem.
+    figure: null
+    options:
+      - id: a
+        text: "8"
+      - id: b
+        text: "9"
+      - id: c
+        text: "10"
+      - id: d
+        text: "11"
+    correctOptionId: b

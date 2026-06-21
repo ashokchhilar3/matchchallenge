@@ -1,0 +1,184 @@
+id: level-3
+title: Level 3
+theme: Mixed Challenge Summit
+passingRule: perfect
+questions:
+  - id: level-3-q1
+    prompt: Lena ate 3/8 of a pizza at lunch and 2/8 at dinner. How much pizza did she eat in all?
+    topicTags:
+      - fractions
+      - word-problem
+    hint: The denominators are the same, so add the numerators.
+    figure: null
+    options:
+      - id: a
+        text: 5/8
+      - id: b
+        text: 5/16
+      - id: c
+        text: 1/8
+      - id: d
+        text: "1"
+    correctOptionId: a
+  - id: level-3-q2
+    prompt: Four notebooks cost $3 each, and one pen costs $2. How much money is needed to buy them all?
+    topicTags:
+      - word-problem
+      - multiplication
+      - addition
+    hint: Find the notebook cost first, then add the pen cost.
+    figure: null
+    options:
+      - id: a
+        text: $12
+      - id: b
+        text: $13
+      - id: c
+        text: $14
+      - id: d
+        text: $15
+    correctOptionId: c
+  - id: level-3-q3
+    prompt: What is the area of this triangle?
+    topicTags:
+      - geometry
+      - area
+      - triangle
+    hint: Triangle area = 1/2 × base × height.
+    figure:
+      file: figures/level-3-q3-triangle-area.svg
+      alt: A triangle with a 9 centimeter base and a 4 centimeter height drawn with a dashed height line.
+    options:
+      - id: a
+        text: 13 cm²
+      - id: b
+        text: 18 cm²
+      - id: c
+        text: 26 cm²
+      - id: d
+        text: 36 cm²
+    correctOptionId: b
+  - id: level-3-q4
+    prompt: What is 5/6 − 1/3?
+    topicTags:
+      - fractions
+      - subtraction
+    hint: Rewrite 1/3 as sixths first.
+    figure: null
+    options:
+      - id: a
+        text: 1/2
+      - id: b
+        text: 2/6
+      - id: c
+        text: 4/6
+      - id: d
+        text: 3/6
+    correctOptionId: a
+  - id: level-3-q5
+    prompt: Three-fifths of a class of 30 students brought water bottles. How many students brought water bottles?
+    topicTags:
+      - fractions
+      - word-problem
+    hint: Find 1/5 of 30, then multiply by 3.
+    figure: null
+    options:
+      - id: a
+        text: "6"
+      - id: b
+        text: "12"
+      - id: c
+        text: "15"
+      - id: d
+        text: "18"
+    correctOptionId: d
+  - id: level-3-q6
+    prompt: A straight line is divided by a ray. One angle is 115°. What is angle x?
+    topicTags:
+      - geometry
+      - angles
+      - straight-line
+    hint: Angles on a straight line add to 180°.
+    figure:
+      file: figures/level-3-q6-straight-line-angle.svg
+      alt: A straight line with a ray forming a 115 degree angle on one side and an unknown x angle on the other.
+    options:
+      - id: a
+        text: 55°
+      - id: b
+        text: 60°
+      - id: c
+        text: 65°
+      - id: d
+        text: 75°
+    correctOptionId: c
+  - id: level-3-q7
+    prompt: Which decimal is smaller?
+    topicTags:
+      - decimals
+      - comparison
+    hint: Line up the digits in the tenths and hundredths places.
+    figure: null
+    options:
+      - id: a
+        text: "4.07"
+      - id: b
+        text: "4.7"
+      - id: c
+        text: They are equal.
+      - id: d
+        text: Not enough information.
+    correctOptionId: a
+  - id: level-3-q8
+    prompt: How many milliliters are in 1.5 liters?
+    topicTags:
+      - measurement
+      - unit-conversion
+    hint: 1 liter = 1,000 milliliters.
+    figure: null
+    options:
+      - id: a
+        text: 150 mL
+      - id: b
+        text: 1,050 mL
+      - id: c
+        text: 1,500 mL
+      - id: d
+        text: 15,000 mL
+    correctOptionId: c
+  - id: level-3-q9
+    prompt: A rectangle has an area of 54 square inches and a length of 9 inches. What is its width?
+    topicTags:
+      - geometry
+      - area
+      - word-problem
+    hint: Width = area ÷ length.
+    figure: null
+    options:
+      - id: a
+        text: 5 inches
+      - id: b
+        text: 6 inches
+      - id: c
+        text: 7 inches
+      - id: d
+        text: 8 inches
+    correctOptionId: b
+  - id: level-3-q10
+    prompt: A bus has 8 rows with 6 seats in each row. If 7 seats are empty, how many students are on the bus?
+    topicTags:
+      - word-problem
+      - multiplication
+      - subtraction
+    hint: Find the total number of seats, then subtract the empty seats.
+    figure: null
+    options:
+      - id: a
+        text: "41"
+      - id: b
+        text: "42"
+      - id: c
+        text: "47"
+      - id: d
+        text: "55"
+    correctOptionId: a

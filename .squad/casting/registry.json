@@ -1,0 +1,46 @@
+{
+  "agents": {
+    "lead": {
+      "persistent_name": "Mikey",
+      "universe": "The Goonies",
+      "created_at": "2026-06-17T17:20:17Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "frontend-dev": {
+      "persistent_name": "Data",
+      "universe": "The Goonies",
+      "created_at": "2026-06-17T17:20:17Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "ux-design-dev": {
+      "persistent_name": "Mouth",
+      "universe": "The Goonies",
+      "created_at": "2026-06-17T17:20:17Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "tester": {
+      "persistent_name": "Chunk",
+      "universe": "The Goonies",
+      "created_at": "2026-06-17T17:20:17Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "launch-analyst": {
+      "persistent_name": "Brand",
+      "universe": "The Goonies",
+      "created_at": "2026-06-17T17:20:17Z",
+      "legacy_named": false,
+      "status": "active"
+    },
+    "iteration-reviewer": {
+      "persistent_name": "Sloth",
+      "universe": "The Goonies",
+      "created_at": "2026-06-17T17:35:19Z",
+      "legacy_named": false,
+      "status": "active"
+    }
+  }
+}

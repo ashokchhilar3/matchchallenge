@@ -1,0 +1,231 @@
+.celebration-overlay {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: var(--spacing-lg);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  background: var(--color-overlay);
+  backdrop-filter: blur(var(--blur-sm));
+  transition: opacity var(--transition-base) ease, visibility var(--transition-base) ease;
+  z-index: 20;
+}
+
+.celebration-overlay--visible {
+  opacity: 1;
+  visibility: visible;
+  animation: celebration-veil var(--celebration-duration) ease both;
+}
+
+.celebration-overlay__card {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: var(--spacing-md);
+  min-width: min(100%, var(--celebration-card-min-width));
+  padding: var(--spacing-xl);
+  border-radius: var(--radius-lg);
+  background: var(--color-card);
+  box-shadow: var(--card-shadow-strong);
+  animation: celebration-pop var(--celebration-duration) ease both;
+}
+
+.celebration-overlay--complete .celebration-overlay__card {
+  padding: var(--spacing-2xl);
+  transform: scale(1.04);
+}
+
+.celebration-checkmark {
+  width: var(--celebration-size);
+  height: var(--celebration-size);
+  padding: var(--spacing-md);
+  border-radius: 50%;
+  background: radial-gradient(circle, var(--color-success-soft), var(--color-card));
+  box-shadow: 0 0 0 0.6rem var(--color-success-shadow);
+}
+
+.celebration-checkmark path {
+  fill: none;
+  stroke: var(--color-success);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: var(--check-stroke-width);
+  stroke-dasharray: 64;
+  stroke-dashoffset: 64;
+  animation: draw-check 720ms ease forwards 160ms;
+}
+
+.celebration-overlay__message {
+  font-size: var(--font-size-xl);
+  font-weight: 800;
+  line-height: var(--line-height-tight);
+  text-align: center;
+}
+
+.celebration-overlay__subtext {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-md);
+  text-align: center;
+}
+
+.celebration-sparkles {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.celebration-sparkle {
+  position: absolute;
+  width: var(--sparkle-size);
+  height: var(--sparkle-size);
+  border-radius: 50%;
+  background: var(--color-warning);
+  opacity: 0;
+  animation: sparkle-burst 1s ease-out forwards;
+}
+
+.celebration-sparkle:nth-child(1) {
+  top: 18%;
+  left: 20%;
+  animation-delay: 80ms;
+}
+
+.celebration-sparkle:nth-child(2) {
+  top: 22%;
+  right: 18%;
+  background: var(--color-secondary);
+  animation-delay: 180ms;
+}
+
+.celebration-sparkle:nth-child(3) {
+  top: 56%;
+  left: 10%;
+  animation-delay: 260ms;
+}
+
+.celebration-sparkle:nth-child(4) {
+  top: 62%;
+  right: 10%;
+  background: var(--color-primary);
+  animation-delay: 320ms;
+}
+
+.celebration-sparkle:nth-child(5) {
+  bottom: 16%;
+  left: 28%;
+  background: var(--color-success);
+  animation-delay: 420ms;
+}
+
+.celebration-sparkle:nth-child(6) {
+  bottom: 14%;
+  right: 28%;
+  animation-delay: 520ms;
+}
+
+.timeline-node--current .timeline-node__button::before {
+  animation: timeline-pulse 1.4s ease-in-out infinite;
+}
+
+.question-card__option,
+.question-card__dispute-button,
+.score-summary__button,
+.name-entry-form__button,
+.timeline-node__button,
+.level-preview__button,
+.exercise-screen__button {
+  will-change: transform;
+}
+
+@keyframes draw-check {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes sparkle-burst {
+  0% {
+    opacity: 0;
+    transform: scale(0.2) translateY(0);
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.15) translateY(var(--sparkle-rise));
+  }
+}
+
+@keyframes celebration-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.92) translateY(0.8rem);
+  }
+
+  20% {
+    opacity: 1;
+    transform: scale(1.03) translateY(0);
+  }
+
+  85% {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+}
+
+@keyframes celebration-veil {
+  0% {
+    opacity: 0;
+  }
+
+  18% {
+    opacity: 1;
+  }
+
+  85% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes timeline-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0.45rem var(--color-primary-soft), 0 0.8rem 1.5rem var(--color-primary-shadow);
+    transform: scale(1);
+  }
+
+  50% {
+    box-shadow: 0 0 0 0.75rem var(--color-shadow), 0 0.8rem 1.6rem var(--color-primary-shadow-strong);
+    transform: scale(1.06);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .celebration-overlay,
+  .celebration-overlay__card,
+  .celebration-checkmark path,
+  .celebration-sparkle,
+  .timeline-node--current .timeline-node__button::before {
+    animation: none;
+    transition: none;
+  }
+
+  .celebration-overlay--visible {
+    opacity: 1;
+    visibility: visible;
+  }
+}

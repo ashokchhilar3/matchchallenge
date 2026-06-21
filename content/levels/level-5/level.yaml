@@ -1,0 +1,190 @@
+id: level-5
+title: Level 5
+theme: Final Challenge Peak
+passingRule: perfect
+questions:
+  - id: level-5-q1
+    prompt: What is 2 1/2 + 1.75?
+    topicTags:
+      - fractions
+      - decimals
+      - addition
+    hint: Change 2 1/2 to 2.5 before adding.
+    figure: null
+    options:
+      - id: a
+        text: "3.75"
+      - id: b
+        text: "4.00"
+      - id: c
+        text: "4.25"
+      - id: d
+        text: "4.50"
+    correctOptionId: c
+  - id: level-5-q2
+    prompt: What is the missing angle in this right angle?
+    topicTags:
+      - geometry
+      - angles
+      - right-angle
+    hint: Angles that make a right angle add to 90°.
+    figure:
+      file: figures/level-5-q2-right-angle.svg
+      alt: A right angle split into a 35 degree angle and an unknown angle.
+    options:
+      - id: a
+        text: 45°
+      - id: b
+        text: 55°
+      - id: c
+        text: 65°
+      - id: d
+        text: 125°
+    correctOptionId: b
+  - id: level-5-q3
+    prompt: How many grams are in 3.6 kilograms?
+    topicTags:
+      - measurement
+      - unit-conversion
+    hint: 1 kilogram = 1,000 grams.
+    figure: null
+    options:
+      - id: a
+        text: 360 g
+      - id: b
+        text: 3,060 g
+      - id: c
+        text: 3,600 g
+      - id: d
+        text: 36,000 g
+    correctOptionId: c
+  - id: level-5-q4
+    prompt: A square patio has an area of 64 square feet. What is its perimeter?
+    topicTags:
+      - geometry
+      - area
+      - perimeter
+      - square
+    hint: Find the side length first, then multiply by 4.
+    figure: null
+    options:
+      - id: a
+        text: 16 feet
+      - id: b
+        text: 24 feet
+      - id: c
+        text: 28 feet
+      - id: d
+        text: 32 feet
+    correctOptionId: d
+  - id: level-5-q5
+    prompt: What is the volume of this rectangular prism?
+    topicTags:
+      - measurement
+      - volume
+      - rectangular-prism
+    hint: Volume = length × width × height.
+    figure:
+      file: figures/level-5-q5-rectangular-prism.svg
+      alt: A rectangular prism labeled 6 centimeters long, 4 centimeters wide, and 3 centimeters tall.
+    options:
+      - id: a
+        text: 13 cm³
+      - id: b
+        text: 24 cm³
+      - id: c
+        text: 48 cm³
+      - id: d
+        text: 72 cm³
+    correctOptionId: d
+  - id: level-5-q6
+    prompt: Four adult tickets cost $12 each and three kid tickets cost $8 each. What is the total cost?
+    topicTags:
+      - word-problem
+      - multiplication
+      - addition
+    hint: Find the adult total and kid total, then add them.
+    figure: null
+    options:
+      - id: a
+        text: $64
+      - id: b
+        text: $68
+      - id: c
+        text: $72
+      - id: d
+        text: $76
+    correctOptionId: c
+  - id: level-5-q7
+    prompt: How many minutes are in 1.5 hours?
+    topicTags:
+      - measurement
+      - unit-conversion
+      - time
+    hint: 1 hour = 60 minutes.
+    figure: null
+    options:
+      - id: a
+        text: 75 minutes
+      - id: b
+        text: 80 minutes
+      - id: c
+        text: 90 minutes
+      - id: d
+        text: 150 minutes
+    correctOptionId: c
+  - id: level-5-q8
+    prompt: A 9-meter by 7-meter playground gets a 2-meter-wide path added along the 7-meter side. What is the new total area?
+    topicTags:
+      - geometry
+      - area
+      - multi-step
+    hint: Original area 9 × 7, path area 7 × 2, add them.
+    figure: null
+    options:
+      - id: a
+        text: 71 m²
+      - id: b
+        text: 75 m²
+      - id: c
+        text: 77 m²
+      - id: d
+        text: 81 m²
+    correctOptionId: c
+  - id: level-5-q9
+    prompt: Which statement is true?
+    topicTags:
+      - mixed-review
+      - comparison
+    hint: Compare the values carefully by rewriting them in the same form if needed.
+    figure: null
+    options:
+      - id: a
+        text: 0.6 is less than 3/5.
+      - id: b
+        text: 2.4 is greater than 2 2/5.
+      - id: c
+        text: 3/4 is equal to 0.75.
+      - id: d
+        text: 1.2 is equal to 12/100.
+    correctOptionId: c
+  - id: level-5-q10
+    prompt: >-
+      A science tank held 120 liters of water. Then 38.5 liters and 27.25 liters were poured out. How much water is
+      left?
+    topicTags:
+      - decimals
+      - word-problem
+      - multi-step
+    hint: Add the water poured out, then subtract from 120 liters.
+    figure: null
+    options:
+      - id: a
+        text: 54.25 liters
+      - id: b
+        text: 65.75 liters
+      - id: c
+        text: 81.75 liters
+      - id: d
+        text: 92.25 liters
+    correctOptionId: a

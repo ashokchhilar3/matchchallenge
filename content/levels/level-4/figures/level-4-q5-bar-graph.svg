@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 240" width="320" height="240">
+  <line x1="48" y1="24" x2="48" y2="190" stroke="#333" stroke-width="2" />
+  <line x1="48" y1="190" x2="290" y2="190" stroke="#333" stroke-width="2" />
+  <text x="34" y="194" font-size="12" fill="#333">0</text>
+  <text x="28" y="154" font-size="12" fill="#333">10</text>
+  <text x="28" y="114" font-size="12" fill="#333">20</text>
+  <text x="28" y="74" font-size="12" fill="#333">30</text>
+  <line x1="44" y1="150" x2="290" y2="150" stroke="#d0d7de" stroke-width="1" />
+  <line x1="44" y1="110" x2="290" y2="110" stroke="#d0d7de" stroke-width="1" />
+  <line x1="44" y1="70" x2="290" y2="70" stroke="#d0d7de" stroke-width="1" />
+  <rect x="72" y="142" width="34" height="48" fill="#7c4dff" rx="6" />
+  <rect x="126" y="126" width="34" height="64" fill="#42a5f5" rx="6" />
+  <rect x="180" y="110" width="34" height="80" fill="#26a69a" rx="6" />
+  <rect x="234" y="134" width="34" height="56" fill="#ffb300" rx="6" />
+  <text x="89" y="208" text-anchor="middle" font-size="12" fill="#333">Mon</text>
+  <text x="143" y="208" text-anchor="middle" font-size="12" fill="#333">Tue</text>
+  <text x="197" y="208" text-anchor="middle" font-size="12" fill="#333">Wed</text>
+  <text x="251" y="208" text-anchor="middle" font-size="12" fill="#333">Thu</text>
+  <text x="170" y="226" text-anchor="middle" font-size="13" fill="#333">Books read</text>
+</svg>
